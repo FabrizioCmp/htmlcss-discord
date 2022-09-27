@@ -18,6 +18,11 @@ header{
     background-color:#2A5EE8;
     padding: 1rem 0;
 }
+footer{
+    color: white;
+    padding-top: 2rem;
+    font-size: small;
+}
 div > ul{
     gap: 1rem;
     list-style: none;
@@ -33,6 +38,7 @@ hr{
 button{
     display: inline-block;
 }
+
 a{
     text-decoration: none;
     color: var(--white);
@@ -41,9 +47,15 @@ a{
 h1{
     font-size: 3rem;
 }
+
 h2{
     font-size: 1.8rem;
     line-height: 2.3rem;
+}
+
+h3.lviol{
+    color: var(--lviol);
+    font-size: 2rem;
 }
 
 p{
@@ -169,11 +181,6 @@ p{
     height: 50px;
 }
 
-
-.borderw{
-    border: 1px dotted white;
-}
-
 .foot1{
     padding-top: 0.3rem;
     padding-bottom: 1rem;
@@ -223,14 +230,20 @@ p{
     width: 100%;
 }
 
-h3.lviol{
-    color: var(--lviol);
+
+
+.w40{
+    width: 40%;
 }
 
-.grow2{
-    flex-grow: 2;
+.w15{
+    width: 15%;
 }
 
-.grow1{
-    flex-grow: 1;
+.foot1 > div > ul{
+    line-height: 1.5rem;
+}
+
+.foot1 > .w40{
+    padding-right: 2rem;
 }
