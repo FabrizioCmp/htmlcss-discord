@@ -1,3 +1,6 @@
+:root{
+    --white: white;
+}
 *{
     padding: 0;
     margin: 0;
@@ -18,29 +21,65 @@ div > ul{
     
 }
 
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: var(--white);
+}
+button{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+}
 .container{
     width: 920px;
     margin: 0 auto;
 }
+.bttn{
+    background-color: var(--white);
+    border: none;
+    border-radius: 25px;
+}
+.bttn.login{
+    padding: 0.4rem 0.6rem;
+}
+.w25{
+    width: 25%;
+}
+.w50{
+    width: 50%;
+}
 
-.w720{
+.w720px{
     width: 720px;
+}
+.h100{
+    height: 100%;
+}
+.alg-itms{
+    align-items: center;
+}
+
+.f-size-s{
+    font-size: small
+}
+.c-gap{
+    column-gap: 2rem;
 }
 
 .blue{
     background-color: rgb(0, 0, 155);
 }
 .lblue{
-    background-color: rgb(0, 136, 255);
+    background-color: #2A5EE8;
 }
 .pink{
     background-color: rgb(243, 127, 204);
 }
 .lpink{
     background-color: pink;
-}
-.orange{
-    background-color: orange;
 }
 .grey{
     background-color: rgb(211, 210, 210);
@@ -55,7 +94,7 @@ div > ul{
     display: flex;
 }
 .right{
-    justify-content: end;
+    justify-content: center;
 }
 .gsea{
     background-color: lightseagreen;
@@ -74,22 +113,12 @@ div > ul{
     padding: 2rem;
 }
 
-.col{
-   padding: 1rem;
-   background-color: orange;
-}
 
 .header-center{
-    border: 1px dotted black;
+
     justify-content: center;
 }
 
-.grow1{
-    flex-grow: 1;
-}
-.grow2{
-    flex-grow: 2;
-}
 
 .right{
     justify-content: end;
@@ -131,9 +160,4 @@ div > ul{
 
 .pddg{
     padding: 0.3rem;
-}
-hr{
-    border: none;
-    height: 0.5px;
-    background-color: white;
 }
