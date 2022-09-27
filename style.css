@@ -14,7 +14,7 @@ section{
     padding: 3rem 0;
 }
 header{
-    background-color: lightblue;
+    background-color:#2A5EE8;
     padding: 1rem 0;
 }
 div > ul{
@@ -114,27 +114,10 @@ p{
     column-gap: 2rem;
 }
 
-.blue{
-    background-color: rgb(0, 0, 155);
-}
-.lblue{
-    background-color: #2A5EE8;
-}
-.pink{
-    background-color: rgb(243, 127, 204);
-}
-.lpink{
-    background-color: pink;
-}
 .grey{
     background-color: var(--lgrey);
 }
-.green{
-    background-color: green;
-}
-.pink2{
-    background-color: rgb(226, 146, 159);
-}
+
 .flex{
     display: flex;
 }
@@ -173,17 +156,6 @@ p{
     height: 50px;
 }
 
-.h200{
-    height: 200px;
-}
-
-.h300{
-    height: 300px;
-}
-
-.h600{
-    height: 600px;
-}
 
 .borderw{
     border: 1px dotted white;
@@ -215,4 +187,15 @@ p{
 .sec1 .container{
     text-align: center;
     color: var(--white);
+}
+
+.sec5.container{
+    text-align: center;
+    color: var(--dark);
+}
+
+.img4{
+    display: block;
+    margin: 0% auto;
+    width: 100%;
 }
