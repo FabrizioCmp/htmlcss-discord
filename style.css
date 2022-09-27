@@ -12,7 +12,7 @@
 }
 
 section{
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 header{
     background-color:#2A5EE8;
@@ -136,6 +136,9 @@ p{
 .c-gap{
     column-gap: 2rem;
 }
+.c-gap1{
+    column-gap: 1rem;
+}
 
 .grey{
     background-color: var(--lgrey);
@@ -203,7 +206,9 @@ p{
 
 .sec1{
     background-image: url(/imgs/jumbo.png);
-    background-size: cover;
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 .sec1 .container{
@@ -232,8 +237,6 @@ p{
     width: 100%;
 }
 
-
-
 .w40{
     width: 40%;
 }
@@ -249,7 +252,16 @@ p{
 .foot1 > .w40{
     padding-right: 2rem;
 }
-
+.lang-selector > img:nth-child(1){
+    width: 5%;
+}
+.lang-selector{
+    column-gap: .2rem;
+}
 .foot2 > div{
     padding-bottom: 4rem;
+}
+
+.social > img{
+    width: 1.5rem;
 }
