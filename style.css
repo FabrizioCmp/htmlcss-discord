@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 40px 0;
+    border: 1px solid green
+}
+header{
+    background-color: lightblue;
+    padding: 1rem 0;
+}
+div > ul{
+    gap: 1rem;
+    list-style: none;
+    
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.w720{
+    width: 720px;
+}
+
+.blue{
+    background-color: rgb(0, 0, 155);
+}
+.lblue{
+    background-color: rgb(0, 136, 255);
+}
+.pink{
+    background-color: rgb(243, 127, 204);
+}
+.lpink{
+    background-color: pink;
+}
+.orange{
+    background-color: orange;
+}
+.grey{
+    background-color: rgb(211, 210, 210);
+}
+.green{
+    background-color: green;
+}
+.pink2{
+    background-color: rgb(226, 146, 159);
+}
+.flex{
+    display: flex;
+}
+.right{
+    justify-content: end;
+}
+.gsea{
+    background-color: lightseagreen;
+}
+.lgsea{
+    background-color: rgb(131, 255, 249);
+}
+
+.black{
+    background-color: rgb(34, 34, 34);
+}
+
+.row{
+    display: flex;    
+    border: 1px solid blue;
+    padding: 2rem;
+}
+
+.col{
+   padding: 1rem;
+   background-color: orange;
+}
+
+.header-center{
+    border: 1px dotted black;
+    justify-content: center;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+.grow2{
+    flex-grow: 2;
+}
+
+.right{
+    justify-content: end;
+}
+
+.h50{
+    height: 50px;
+}
+
+.h200{
+    height: 200px;
+}
+
+.h300{
+    height: 300px;
+}
+
+.h600{
+    height: 600px;
+}
+
+.borderw{
+    border: 1px dotted white;
+}
+
+.foot1{
+    padding-top: 0.3rem;
+    padding-bottom: 1rem;
+}
+
+.foot2{
+    padding-top: 0.5rem;
+}
+
+.pos-content{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pddg{
+    padding: 0.3rem;
+}
+hr{
+    border: none;
+    height: 0.5px;
+    background-color: white;
+}
