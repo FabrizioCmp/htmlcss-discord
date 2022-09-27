@@ -29,12 +29,14 @@ div > ul{
     
 }
 
-hr{
-    border: none;
-    height: 0.5px;
-    background-color: var(--white);
-    background-size: contain;
-}
+hr {
+    border: 0;
+    display:block;              
+    background-color:white;
+    height: .01rem;
+    margin-bottom: 1rem;
+  }
+
 button{
     display: inline-block;
 }
@@ -246,4 +248,8 @@ p{
 
 .foot1 > .w40{
     padding-right: 2rem;
+}
+
+.foot2 > div{
+    padding-bottom: 4rem;
 }
