@@ -1,6 +1,7 @@
 :root{
     --white: white;
     --dark: #23272A;
+    --lgrey: #F6F6F6;
 }
 *{
     padding: 0;
@@ -126,7 +127,7 @@ p{
     background-color: pink;
 }
 .grey{
-    background-color: rgb(211, 210, 210);
+    background-color: var(--lgrey);
 }
 .green{
     background-color: green;
