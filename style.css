@@ -27,6 +27,7 @@ hr{
     border: none;
     height: 0.5px;
     background-color: var(--white);
+    background-size: contain;
 }
 button{
     display: inline-block;
@@ -43,6 +44,7 @@ h2{
     font-size: 1.8rem;
     line-height: 2.3rem;
 }
+
 p{
     line-height: 1.5rem;
 }
@@ -70,6 +72,12 @@ p{
     background-color: var(--dark);
     color: var(--white);
     padding: .5rem 1rem;
+}
+.bttn.violet{
+    background-color: #8EA1E1;
+    color: white;
+    padding: .5rem 1rem;
+
 }
 .w25{
     width: 25%;
@@ -120,6 +128,10 @@ p{
 
 .flex{
     display: flex;
+}
+.flexc{
+    display: flex;
+    flex-direction: column;
 }
 .right{
     justify-content: center;
@@ -190,8 +202,18 @@ p{
 }
 
 .sec5.container{
-    text-align: center;
+    
     color: var(--dark);
+}
+.sec5 > p{
+    text-align: center;
+}
+.sec5 > h3{
+    padding: .5rem;
+    background-image: url(/imgs/stars.svg);
+    font-size: 1.3rem;
+    background-size: 98%;
+    background-position: center;
 }
 
 .img4{
