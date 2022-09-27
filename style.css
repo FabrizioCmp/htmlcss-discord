@@ -2,6 +2,7 @@
     --white: white;
     --dark: #23272A;
     --lgrey: #F6F6F6;
+    --lviol: #6F85D4;
 }
 *{
     padding: 0;
@@ -143,8 +144,8 @@ p{
     background-color: rgb(131, 255, 249);
 }
 
-.black{
-    background-color: rgb(34, 34, 34);
+.dark{
+    background-color: var(--dark);
 }
 
 .row{
@@ -220,4 +221,16 @@ p{
     display: block;
     margin: 0% auto;
     width: 100%;
+}
+
+h3.lviol{
+    color: var(--lviol);
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+.grow1{
+    flex-grow: 1;
 }
